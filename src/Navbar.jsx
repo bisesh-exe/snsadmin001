@@ -64,7 +64,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item mx-2">
-                <Link className="nav-link btn btn-outline-primary" to="/listofclients">
+                <Link className="nav-link btn btn-outline-primary" to="/clients">
                   List of Clients
                 </Link>
               </li>
