@@ -48,7 +48,7 @@ const Navbar = () => {
               <li className="nav-item mx-2">
                 <Link
                   className="nav-link btn btn-outline-primary"
-                  to="/"
+                  to="/tax"
                 >
                   Tax Return
                 </Link>
