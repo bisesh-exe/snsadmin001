@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -46,10 +46,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item mx-2">
-                <Link
-                  className="nav-link btn btn-outline-primary"
-                  to="/tax"
-                >
+                <Link className="nav-link btn btn-outline-primary" to="/tax">
                   Tax Return
                 </Link>
               </li>
@@ -69,7 +66,7 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-            <form className="d-flex" onSubmit={handleSearchSubmit}>
+            <form className="d-flex">
               <div className="input-group mx-2">
                 <button
                   className="btn btn-primary dropdown-toggle"
