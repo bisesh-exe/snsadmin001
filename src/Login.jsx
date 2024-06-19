@@ -10,7 +10,7 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (email === "snstest@gmail.com" && password === "admin") {
+    if (email === "snstest@gmail.com" && password === "snstest") {
       navigate('/userpage');
     } else {
       alert('Invalid credentials');
